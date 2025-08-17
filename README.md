@@ -74,10 +74,10 @@ Other significant predictors include the loan interest rate and whether the appl
 Model Performance
 The final models were evaluated on the test set, with the following results:
 
-Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
-Logistic Regression	0.861	0.882	0.950	0.915	0.871
-Random Forest	0.931	0.924	0.994	0.958	0.935
-XGBoost	0.936	0.929	0.995	0.961	0.948
+Model	                    Accuracy	         Precision        	Recall	      F1 Score	     ROC-AUC
+Logistic Regression      	0.861	              0.882	            0.950	        0.915          0.871
+Random Forest	            0.931	              0.924	            0.994	        0.958	         0.935
+XGBoost	                  0.936	              0.929	            0.995	        0.961	         0.948
 
 Feature Importance
 The top 5 most predictive features according to the best model (XGBoost) are:
